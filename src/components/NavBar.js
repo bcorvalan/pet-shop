@@ -1,12 +1,17 @@
-import React from 'react'
-import {Navbar} from 'react-bootstrap'
+import React, { Component } from "react";
+import '../styles/navBar.css'; 
 
-export default function NavBar() {
+class NavBar extends Component {
+  render() {
     return (
-        <Navbar bg="light">
-        <Navbar.Brand href="#home">PetShop</Navbar.Brand>
-        <Navbar.Brand href="#About">About</Navbar.Brand>
-        <Navbar.Brand href="#Contact">Contact</Navbar.Brand>
-      </Navbar>
-    )
+      <nav className="topnav">
+        <a className="active" href="#home">PetShop</a>
+        <a href="#news">Productos</a>
+        <a href="#contact">Promociones</a>
+        <a href="#about">About</a>
+    </nav>
+    );
+  }
 }
+
+export default NavBar;
