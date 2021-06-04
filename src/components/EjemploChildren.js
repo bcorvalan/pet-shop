@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Children(props) {
+function EjemploChildren(props) {
     console.log(props)
     return (
         <div>
@@ -9,4 +9,4 @@ function Children(props) {
     )
 }
 
-export default Children
+export default EjemploChildren

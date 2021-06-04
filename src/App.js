@@ -7,7 +7,7 @@ import NavBar from "./components/NavBar";
 //import InputState from "./components/InputState";
 //import Test from "./components/Test";
 //import image from "./assets/perro.png";
-//(import Children from "./components/Children"
+//(import EjemploChildren from "./components/EjemploChildren"
 //import StateInCC from "./components/StateInCC"
 import UseState from "./components/UseState"
 
